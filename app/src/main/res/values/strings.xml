@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">EvaFinal</string>
+    <string name="btnNuevoLugar">Agregar Nuevo Lugar</string>
+    <string name="btnSave">Guardar</string>
+    <string name="placeHolderName">Nombre Lugar</string>
+    <string name="placeHolderUrl">Url Imagen Referencial</string>
+    <string name="placeHolderLatitud">Latitud</string>
+    <string name="placeHolderLongitud">Longitud</string>
+    <string name="placeHolderOrden">Orden</string>
+    <string name="placeHolderAlojamiento">Costo Alojamiento</string>
+    <string name="placeHoldeerTraslados">Costo Traslados</string>
+    <string name="placeHolderComentarios">Comentarios</string>
 </resources>

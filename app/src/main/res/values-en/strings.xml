@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EvaFinal</string>
+    <string name="btnNuevoLugar">Add New Place</string>
+    <string name="btnSave">Save</string>
+    <string name="placeHolderName">Place Name</string>
+    <string name="placeHolderUrl">Url Referencial Image</string>
+    <string name="placeHolderLatitud">Latitude</string>
+    <string name="placeHolderLongitud">Longitude</string>
+    <string name="placeHolderOrden">Sort</string>
+    <string name="placeHolderAlojamiento">Accommodation Cost</string>
+    <string name="placeHoldeerTraslados">Transfer Cost</string>
+    <string name="placeHolderComentarios">Comments</string>
+</resources>

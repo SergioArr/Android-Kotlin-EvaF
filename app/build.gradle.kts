@@ -79,5 +79,26 @@ dependencies {
     //ViewModel en Compose
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
 
+    // CameraX
+    val camerax_version = "1.2.3"
+    implementation("androidx.camera:camera-core:${camerax_version}")
+    implementation("androidx.camera:camera-camera2:${camerax_version}")
+// Si se necesita CameraX View classs
+    implementation("androidx.camera:camera-view:${camerax_version}")
+// Si se necesita la libería para gestion del ciclo vida
+    implementation("androidx.camera:camera-lifecycle:${camerax_version}")
+
+    implementation ("com.google.accompanist:accompanist-coil:0.15.0")
+
+    //para determinar la ubicación
+    implementation("com.google.android.gms:play-services-location:21.0.1")
+
+    //Open street Mpa (android)
+    implementation("org.osmdroid:osmdroid-android:6.1.16")
+
+    //retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-moshi:2.9.0")
+    implementation("com.squareup.moshi:moshi-kotlin:1.13.0")
 
 }
