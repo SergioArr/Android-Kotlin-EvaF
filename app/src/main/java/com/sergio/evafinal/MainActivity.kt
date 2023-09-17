@@ -560,31 +560,6 @@ fun PantallaEditUI(lugar:Lugar, lanzadorPermisos: ActivityResultLauncher<Array<S
                 .padding(horizontal = 35.dp)
                 .align(Alignment.CenterHorizontally)
         ) {
-//            Column {
-//                Text(
-//                    text = "Costo x Noche:",
-//                    fontWeight = FontWeight.ExtraBold,
-//                    fontSize = 14.sp,
-//                    modifier = Modifier.padding(vertical = 5.dp)
-//                )
-//                Text(
-//                    text = "$: " + lugar.costoAlojamiento?.toInt().toString(),
-//                    fontSize = 16.sp
-//                )
-//            }
-//            Spacer(modifier = Modifier.width(50.dp))
-//            Column {
-//                Text(
-//                    text = "Traslados:",
-//                    fontWeight = FontWeight.ExtraBold,
-//                    fontSize = 14.sp,
-//                    modifier = Modifier.padding(vertical = 5.dp)
-//                )
-//                Text(
-//                    text = "$: " + lugar.costoTraslados?.toInt().toString(),
-//                    fontSize = 16.sp
-//                )
-//            }
             Column {
                 Text(
                     text = buildAnnotatedString {
